@@ -1,0 +1,21 @@
+.superheroesContent {
+    margin: 1% 5% 0% 5%;
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    color: white;
+}
+
+.superheroesContent>div>div>img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+.superhero__name {
+    font-size: 20px;
+    text-shadow: 2px 0 2px #000,
+        0 2px 2px #000,
+        -2px 0 2px #000,
+        0 -2px 2px #000;
+}
