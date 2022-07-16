@@ -1,0 +1,24 @@
+// vars
+// colors
+// descriptive variables
+$color-first: rgb(34, 156, 171);
+$color-second: rgb(30, 135, 114);
+$color-third: rgb(196, 85, 78);
+$color-forth: rgb(40, 47, 53);
+
+$color-light: white;
+$color-dark: rgb(94, 93, 89);
+
+//functional variables
+$bg-color-first-title: $color-first;
+$bg-color-second-title: $color-second;
+$bg-color-third-title: $color-third;
+$bg-color-forth-title: $color-forth;
+
+$bg-color-first-price: lighten($color-first, 10);
+$bg-color-second-price: lighten($color-second, 10);
+$bg-color-third-price: lighten($color-third, 10);
+$bg-color-forth-price: lighten($color-forth, 10);
+
+$text-color-light: $color-light;
+$text-color-dark: $color-dark;
