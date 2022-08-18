@@ -5,7 +5,7 @@ import TariffJson from './components/Tariff/Tariff.json';
 import Tariff from './components/Tariff/Tariff.jsx';
 
 function App() {
-  const [selectedTariff, setSelectedTariff] = useState();
+  const [selectedTariff, setSelectedTariff] = useState(null);
 
   const handleClick = (selectedTariff) => {
     setSelectedTariff(selectedTariff);
