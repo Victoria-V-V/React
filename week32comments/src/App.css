@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.message:last-child {
+  color: blue;
+  font-style: italic;
+  padding: 5px;
+}
